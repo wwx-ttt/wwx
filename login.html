@@ -1,0 +1,114 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>美食美刻</title>
+<link href="./Public/css/css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table width="100%" height="30" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+  	<td align="center" bgcolor="#f2f2f2">
+        <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><img src="./Public/images/sort-banner.jpg" width="1000" /></td>
+          </tr>
+        </table>
+    </td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellspacing="0" cellpadding="0" class="nav">
+  <tr>
+    <td>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="45" align="center" class="menu"><a href="./index.html">首页</a></td>
+    <td class="menu" align="center"><a href="./list.html">特色美食</a></td>
+    <td class="menu" align="center"><a href="./xianlu.html">美食线路</a></td>
+    <td class="menu" align="center"><a href="./fenxiang.html">个人分享</a></td>
+    
+    <td align="center" class="menu"><a href="./regist.html">会员注册</a></td><td align="center" class="menu"><a href="./login.html" id="loginBtn">会员登陆</a></td>  </tr>
+</table>
+    
+    </td>
+  </tr>
+</table><script type="text/javascript"> 
+function check(){   
+    if(document.form1.name.value==""){
+		alert("请输入用户名");
+		document.form1.name.focus();
+		return false;}
+	if(document.form1.password.value==""){
+		alert("请输入密码");
+		document.form1.password.focus();
+		return false;
+	}
+	
+}
+</script>
+<table cellspacing=0 cellpadding=0 width="1000" align=center border=0>
+  
+    <tr>
+      <td class=b valign=top align=left>
+        <table width=100% align="center" border="0" cellspacing="0" cellpadding="0" class="table-zuoyou" bordercolor="#cccccc">
+          <tr>
+            <td height="1" bgcolor="#ffffff" bordercolor="#ffffff"></td>
+          </tr>
+        </table>
+        <table width=100% align="center" border="0" cellspacing="0" cellpadding="0" class="table-zuoyou" bordercolor="#cccccc">
+          <tr>
+            <td bgcolor="#ffffff" bordercolor="#ffffff"><div class="height10"></div><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="center"><p><font color="#ff3300" style="font-size:14px;"><b>会员登录</b></font></p>
+                      <form name="form1" method="post" action="?" onSubmit="return check();">
+                        <table width="98%" border="0" cellpadding="5" cellspacing="1" bgcolor="#cccccc" align="center">
+                          <tr>
+                            <td height=15 colspan=2 bgcolor="#f1f1f1"><font color="#ff3300">&gt;&gt; 用户名和密码</font> </td>
+                          </tr>
+                          <tr bgcolor="#ffffff">
+                            <td width=30% align=right><span id="usercheck" style="color:red;"></span>用 户 名：</td>
+                            <td width=70% align="left" class=pad><input class="wenbenkuang" name="name" type="text" id="name" maxlength="18">
+                                <font color=red>*</font></td>
+                          </tr>
+                          <tr bgcolor="#ffffff">
+                            <td width=30% align=right>密　　码：</td>
+                            <td align="left" class=pad><input class="wenbenkuang" name="password" type="password" id="password" maxlength="18">
+                                <font color=red>*</font></td>
+                          </tr>
+                          <tr bgcolor="#ffffff">
+                            <td width=30% align=right>验证码：</td>
+                            <td align="left" class=pad><input class="wenbenkuang" name="verify" type="text" id="verify" maxlength="18">
+                                <font color=red>*</font> <img class="code" id="verifyImg" src="./common/image_code.html" onclick="this.src+='?' + Math.random();" alt="点击刷新验证码" /></td>
+                          </tr>
+                          <tr bgcolor="#ffffff">
+                            <td width=30% align="left"><a href="admin/login.html">管理员入口</a></td>
+                            <td align="left" class=pad><input class="go-wenbenkuang" type=submit name="submit" value=" 提交信息 ">
+                                <input class="go-wenbenkuang" type=reset name="clear" value=" 重新填写 ">
+                            </td>
+                          </tr>
+                        </table>
+                    </form></td>
+                </tr>
+            </table><div class="height10"></div></td>
+          </tr>
+        </table>
+       </td>
+    </tr>
+</table>
+<div class="height15"></div>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="./Public/images/footer_bg.jpg" style="line-height:20px;">
+  <tr>
+    <td height="120"><table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="center">版权所有：什么都队  计算机技术与信息管理系统</td>
+        </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

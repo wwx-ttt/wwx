@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>美食美刻</title>
+<link href="./Public/css/css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table width="100%" height="30" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+  	<td align="center" bgcolor="#f2f2f2">
+        <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><img src="./Public/images/sort-banner.jpg" width="1000" /></td>
+          </tr>
+        </table>
+    </td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellspacing="0" cellpadding="0" class="nav">
+  <tr>
+    <td>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="45" align="center" class="menu"><a href="./index.html">首页</a></td>
+    <td class="menu" align="center"><a href="./list.html">特色美食</a></td>
+    <td class="menu" align="center"><a href="./xianlu.html">美食线路</a></td>
+    <td class="menu" align="center"><a href="./fenxiang.html">个人分享</a></td>
+    
+    				<td align="center" class="menu"><a href="./userEdit.html" id="loginBtn">个人中心</a></td>
+			  </tr>
+</table>
+    
+    </td>
+  </tr>
+</table><script type="text/javascript"> 
+function check(){   
+    if(document.form1.name.value==""){
+		alert("请输入用户名");
+		document.form1.name.focus();
+		return false;}
+	if(document.form1.email.value==""){
+		alert("请输入电子邮箱");
+		document.form1.email.focus();
+		return false;}
+	if(document.form1.nickname.value==""){
+		alert("请输入妮称");
+		document.form1.nickname.focus();
+		return false;}
+	
+}
+</script>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:10px auto;">
+  <tr>
+    <td width="240" valign="top" bgcolor="#FFFFFF" style="border:1px solid #e0e0e0;">
+<table width="240" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="130" height="32" align="center" background="./Public/images/index_17.jpg" style="color:#fff; font-size:14px;">会员中心</td>
+            <td style=" background:url(./Public/images/index_19.jpg) bottom;">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top" bgcolor="#FFFFFF" style="padding:10px 0px;">
+        <table width=100% border=0 align=center cellpadding=0 cellspacing=0>
+        <tr>
+        <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" class="left">
+        <tr> 
+        <td height="30" colspan="2" align="center"><a href="./userEdit.html">个人资料</a></td>
+         </tr>
+          <tr>
+          <td height="30" colspan="2" align="center"><a href="./userEditpass.html">修改密码</a></td>
+        </tr>
+      <tr> 
+        <td height="30" colspan="2" align="center"><a href="./fenxiang_edit.html">添加分享</a></td>
+       </tr>
+          <tr>
+           <td height="30" colspan="2" align="center"><a href="./fenxiang_list.html">我的分享</a></td>
+        </tr>
+          <tr>
+          <td height="30" colspan="2" align="center"><a href="./login.html?type=logout">退出登录</a></td>
+          </tr>
+          <tr> 
+        <td height="30" colspan="2" align="center"></td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+	</td>
+      </tr>
+    </table>    </td>
+    <td width="10" valign="top">&nbsp;</td>
+    <td valign="top">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="31" style="padding-right:10px; background:url(./Public/images/index_22.jpg) right; padding-left:15px;"><a href="index.asp">首页</a> &gt;&gt;会员中心</td>
+      </tr>
+      <tr>
+        <td height="" valign="top" bgcolor="#FFFFFF" style="border:1px solid #e0e0e0; padding:10px; line-height:25px;">
+        <table cellspacing=0 cellpadding=0 width="100%" align=center border=0>
+  
+    <tr>
+      <td class=b valign=top align=left>
+        <table width=100% align="center" border="0" cellspacing="0" cellpadding="0" class="table-zuoyou" bordercolor="#cccccc">
+          <tr>
+            <td height="1" bgcolor="#ffffff" bordercolor="#ffffff"></td>
+          </tr>
+        </table>
+        <table width=100% align="center" border="0" cellspacing="0" cellpadding="0" class="table-zuoyou" bordercolor="#cccccc">
+          <tr>
+            <td bgcolor="#ffffff" bordercolor="#ffffff"><div class="height10"></div><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="center"><p><font color="#ff3300" style="font-size:14px;"><b>会员资料更改</b></font></p>
+                      <form name="form1" method="post" action="?" enctype="multipart/form-data" onSubmit="return check();">
+                        <table width="98%" border="0" cellpadding="5" cellspacing="1" bgcolor="#cccccc" align="center">
+                          <tr>
+                            <td height=15 colspan=2 bgcolor="#f1f1f1">&nbsp;</td>
+                          </tr>
+                          <tr bgcolor="#ffffff">
+                            <td width=38% align=right><span id="usercheck" style="color:red;"></span>用 户 名：</td>
+                            <td width=62% align="left" class=pad><input class="wenbenkuang" name="name" type="text" id="name" maxlength="18" value="123" readonly>
+                                <font color=red>*</font></td>
+                          </tr>
+                          <tr bgcolor="#ffffff">
+                            <td width=38% align=right>电子邮箱：</td>
+                            <td align="left" class=pad><input class="wenbenkuang" name="email" type="text" id="email" value="124065860@qq.com">
+                                <font color=red>*</font></td>
+                          </tr>
+                          
+                          <tr bgcolor="#ffffff">
+                            <td width=38% align=right>昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：</td>
+                            <td align="left" class=pad><input class="wenbenkuang" name="nickname" type="text" id="nickname" size="10"  value="11">
+                                <font color=red>*</font> </td>
+                          </tr>
+                          <tr bgcolor="#ffffff">
+                            <td width=38% align=right>姓　　别：</td>
+                            <td align="left" class=pad>
+                            <input type="radio" name="sex" id="select1" value="男"  checked>男
+                            <input type="radio" name="sex" id="select2" value="女" >女
+                          </td>
+                          </tr>
+                          <tr bgcolor="#ffffff">
+                            <td width=38% align=right>上传头像：</td>
+                            <td align="left" class=pad><input type="file" name="img" class="wenbenkuang" id="img">                                </td>
+                          </tr>
+                          <tr bgcolor="#ffffff">
+                            <td width=38% align=right>联系电话：</td>
+                            <td align="left" class=pad><input class="wenbenkuang" name="dianhua" maxlength="18" type="text" id="dianhua"  value="13367110053">
+                                </td>
+                          </tr>
+                          
+                          <tr bgcolor="#ffffff">
+                            <td colspan="2" align="center"><input class="go-wenbenkuang" type=submit name="submit" value=" 提交信息 ">
+                              &nbsp;&nbsp;
+<input class="go-wenbenkuang" onClick="clearreset()" type=reset name="clear" value=" 重新填写 ">                            </td>
+                            </tr>
+                        </table>
+                    </form></td>
+                </tr>
+            </table><div class="height10"></div></td>
+          </tr>
+        </table>
+       </td>
+    </tr>
+</table>
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<div class="height15"></div>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="./Public/images/footer_bg.jpg" style="line-height:20px;">
+  <tr>
+    <td height="120"><table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="center">版权所有：什么都队  计算机技术与信息管理系统</td>
+        </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
